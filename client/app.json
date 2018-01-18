@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/index/project",
+    "pages/addCgi/addCgi",
+    "pages/otherpage/demo01"
+  ],
+  "window":{
+    "backgroundColor":"#F6F6F6",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "CK",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true
+  },
+  "tabBar":{
+    "color":"#666666",
+    "selectedColor":"#ee3333",
+    "backgroundColor":"#ffffff",
+    "borderStyle":"black",
+    "position":"bottom",
+    "list":[{
+      "pagePath": "pages/index/index",
+      "iconPath": "pages/images/icon_home.png",
+      "selectedIconPath": "pages/images/icon_homel.png",
+      "text":"首页"
+    },{
+      "pagePath": "pages/index/project",
+      "iconPath": "pages/images/icon_project.png",
+      "selectedIconPath": "pages/images/icon_projectl.png",
+      "text": "作品"
+    }]
+  },
+  "networkTimeout":{
+    "request":10000,
+    "downloadFile":10000
+  },
+  "debug":true
+}

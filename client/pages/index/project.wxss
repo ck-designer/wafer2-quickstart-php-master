@@ -1,0 +1,14 @@
+/* pages/index/project.wxss */
+.box{
+  width: 80%;
+  height: 200rpx;
+}
+.redbox{
+  background: red;
+}
+.bluebox{
+  background: blue;
+}
+.greenbox{
+  background: green;
+}

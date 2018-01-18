@@ -1,0 +1,6 @@
+<scroll-view scroll-x style='height:200rpx; margin:20rpx 10%;'>
+  <view class='box redbox'></view>
+  <view class='box bluebox'></view>
+  <view class='box greenbox'></view>
+</scroll-view>
+<text>haha</text>

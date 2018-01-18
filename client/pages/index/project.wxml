@@ -3,4 +3,4 @@
   <view class='box bluebox'></view>
   <view class='box greenbox'></view>
 </scroll-view>
-<text>测试文档</text>
+<swiper></swiper>

@@ -5,7 +5,21 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    message:"Hello CK!",
+    array:[1,2,3,4,5],
+    id:0,
+    a:1,
+    b:2,
+    c:3,
+    object:{
+      key:"hello"
+    },
+    uid:['ck'],
+    num:[{
+      messages:'foo'
+    },{
+      messages:'bar'
+    }]
   },
 
   /**

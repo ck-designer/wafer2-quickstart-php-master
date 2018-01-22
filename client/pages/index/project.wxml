@@ -3,4 +3,21 @@
   <view class='box bluebox'></view>
   <view class='box greenbox'></view>
 </scroll-view>
-<swiper></swiper>
+<text>{{message}}</text>
+<view wx:for-items="{{array}}">{{array}}</view>
+<view id="item-{{id}}"></view>
+<view>{{a+b}}+{{c}}+d</view>
+<view>{{object.key}} {{uid}}</view>
+<view wx:for="{{num}}">
+  {{index}}:{{item.messages}}
+</view>
+<view wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:for-item="i">
+  <view wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:for-item="j">
+    <view wx:if="{{i<=j}}">
+      {{i}}*{{j}}={{i*j}}
+    </view>
+  </view>
+</view>
+<block wx:for="{{[1,2,3]}}">
+  <view>索引值{{index}}:值{{item}}</view>
+</block>
